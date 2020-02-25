@@ -15,14 +15,14 @@ Dataset berjumlah 11162 dengan 16 atribut dan 1 target yaitu deposit, yes atau n
 
 Atribut terbagi ke dalam 2 kelompok, yaitu data pribadi dan data promo sebelumnya.
 
-Perbandingan Deposit
+## Perbandingan Deposit
 
 ![Alt text](img/Picture2.png)
 
-Tampilan Webapps
+## Tampilan Webapps
 
 ![Alt text](img/Picture3.png)
 
-Tampilan Halaman Hasil
+## Tampilan Halaman Hasil
 
 ![Alt text](img/Picture4.png)
