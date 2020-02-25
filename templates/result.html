@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<style>
+h1{
+    color: navy;
+    font-weight: bold;
+    font-family: 'Arial';
+    font-size: 53px;
+}
+.p1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.p2{
+    font-size: 50px;
+    text-align: center;
+    font-weight:bold;
+    color: {{color}}
+}
+.container{
+        width: 350px;
+        text-align: justify;
+        font-size: 15px;
+}
+img{
+    margin-top:20px;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:5050/">Home</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<center>
+    <br>
+    <br>
+    <div>
+      <h1>
+        DEPOSIT PREDICTION FOR :
+      </h1>
+    </div>
+    <hr>
+    <div class="container">
+        <b>Age : </b> {{Age}}<br>
+        <b>Balance : </b> {{Balance}}<br>
+        <b>Duration : </b> {{Duration}}<br>
+        <b>Campaign : </b> {{Campaign}}<br>
+        <b>Job : </b> {{Job}}<br>
+        <b>Marital : </b> {{Marital}}<br>
+        <b>Education : </b> {{Education}}<br>
+        <b>Default : </b> {{Default}}<br>
+        <b>Housing : </b> {{Housing}}<br>
+        <b>Loan : </b> {{Loan}}<br>
+        <b>Contact : </b> {{Contact}}<br>
+        <b>Month : </b> {{Month}}<br>
+    </div>
+    <hr>
+    <br>
+    <div class="p1">
+        is...
+    </div>
+    <div class="p2">
+        <label for="result">{{proba}}% {{result}}</label></div>
+    <hr>
+    <a href="/" target="_self" >
+        <button style="background-color: navy; color: whitesmoke; width: 700px" class="btn btn-light">
+            Predict Again
+        </button>    
+      </a>
+</center>
+</body>
+</html>
